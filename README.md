@@ -1,0 +1,2 @@
+# vimwiki
+Public notes
