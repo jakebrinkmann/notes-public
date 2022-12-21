@@ -1,0 +1,13 @@
+# DevOps
+
+- Version Control
+- Dependency Managers
+- CICD
+- Infrastructure-as-Code
+- Configuration Mgmt
+- Monitoring
+- Log Aggregation
+
+## References
+
+- https://roadmap.sh/devops

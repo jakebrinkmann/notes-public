@@ -1,0 +1,16 @@
+# Architecture
+
+> Design, Decide, Simplify, Code, Document,
+  Communicate, Estimate, Balance, Consult, Market
+
+  - Platforms
+  - Serverless
+  - Microservices
+  - Principles
+  - Patterns
+  - Analytics
+
+## References
+
+- https://roadmap.sh/software-design-architecture
+- https://roadmap.sh/software-architect

@@ -1,0 +1,937 @@
+
+# new-feature
+
+Implement (e.g. Implement POST /api/v1/users) Create endpoint (e.g. Create endpoint POST /api/v1/users)
+
+Features are defined using a Features and Benefits (FAB) Matrix:
+
+Feature – A short phrase giving a name and context
+
+Benefit hypothesis – The proposed measurable benefit to the end user or business
+
+Acceptance criteria are used to determine whether the implementation is correct and delivers the business benefits.
+
+Capabilities must be decomposed into features to be implemented. They, in turn, are split into stories consumable by teams within an iteration.
+
+
+# proposal
+
+This is a template for Pilosa's change proposal process, documented here.]
+
+Proposal: [Title]
+
+Author(s): [Author Name, Co-Author Name]
+
+Last updated: [Date]
+
+Discussion at [issue link].
+
+Abstract
+
+[A short summary of the proposal.]
+
+Background
+
+[An introduction of the necessary background and the problem being solved by the proposed change.]
+
+Proposal
+
+[A precise statement of the proposed change.]
+
+Rationale
+
+[A discussion of alternate approaches and the trade offs, advantages, and disadvantages of the specified approach.]
+
+Compatibility
+
+[A discussion of the change with regard to API compatibility]
+
+Implementation
+
+[A description of the steps in the implementation, who will do them, and when. This should include a discussion of how the work fits into the release cycle.
+
+Open issues (if applicable)
+
+[A discussion of issues relating to this proposal for which the author does not know the solution. This section may be omitted if there are none.]
+
+
+# Subtask
+
+Acceptance Criteria
+
+It’s done when the outgoing sound alert is played when a message is sent.
+
+It’s done when the incoming sound alert is played when a message is received.
+
+Definition of Done (DoD) passes all tests passes all linting rules code has been reviewed by at least one other person or pair programmed the feature has been reviewed by one other person in the staging environment
+
+
+# Task
+
+<verb/action> (e.g. “Perform backup”) <verb/action> (e.g. “Research new javascript framework”)
+
+
+# user story
+
+{quote} As <persona/type of user>, I want so that (e.g. As Sam Spendsalot, I want to one-click purchase so that I can get my goods as quickly as possible) As a <persona/type of user>, I want (e.g. As a User, I want to create a task) <persona/type of user> (e.g. User visits home page OR User creates a task) {quote}
+
+h3. Description
+
+As a , I want , so that I can <achieve some goal/benefit/value>.
+
+h3. Core Outcomes
+
+It MUST use tech
+
+It SHOULD allow feelings
+
+It MUST NOT be accessible for people from Jersey
+
+It SHOULD NOT allow for kittens
+
+h3. Test Cases
+
+Given that , When , Then ensure .
+
+h3. Notes
+
+Refer to [RFC 2119|https://www.ietf.org/rfc/rfc2119.txt] for the definition of requirement key words.
+
+# __CARD__
+
+Title: Feature - User - Title
+
+think of cards as tokens promising a future conversation, the details can be elaborated through conversations with the customer
+
+Three points for a JIRA card are:
+
+🎯 Mission: What needs to be done?
+what should be achieved? what problem or need are you trying to solve or fulfill?
+
+🔨 Method: Can this work?
+How is the goal met? High level ideas for possible solutions.
+
+📊 Metrics: Is it testable?
+How do we determine if the goal has been met? Understand if and to which extend you have met the goal.
+
+3C's
+
+Card: As a "user" I want to "function" so I can "value"
+
+Conversation: Detailed description. step-by-step execution, basic flow, alternative scenarios, mock-up design.
+
+Confirmation: Passed and accepted if specific criteria fulfilled in execution
+
+INVEST in Good Stories, and SMART Tasks
+
+I – Independent: not overlap in concept, implement in any order
+
+N – Negotiable: captures the essence, not the details
+
+V – Valuable: framed in a way that makes the customer perceive them as important
+
+E – Estimable: help the customer rank and schedule the story’s implementation
+
+S – Small: not too hard to know what’s in the story’s scope
+
+T – Testable: learn the true needs
+.
+
+S – Specific: everyone can understand what’s involved
+
+M – Measurable: can we mark it as done?
+
+A – Achievable: expect to be able to achieve a task
+
+R – Relevant: can be explained and justified to customer
+
+T – Time-boxed: an expectation so people know when they should seek help
+
+
+
+
+Risk of Precise Specification
+
+If it's risky to not specify precisely, DO specify
+
+(e.g., hardware-software interface, prime-subcontractor interface)
+
+If it's risky to specify precisely, DO NOT specify
+
+(e.g., GUI layout, COTS behavior)
+
+# __Tasks__.md
+
+Use meaningful, specific subject headers.
+
+Tasks
+
+**I'm trying to** _<measurable benefit>_.
+**Right now** _<performing some action>_,
+**but I can't** _<expected behavior>_.
+
+# __UserStories__.md
+
+User Stories
+
+**As a user** _<type of user>_,
+**I want** _<to perform some task>_,
+**so that I can** _<achieve some goal/benefit/value>_.
+
+
+Atomic Functionality of what the user wants to achieve by delivering (business/technology) value under constraints. I.N.V.E.S.T.
+
+# API.md
+
+Implement <endpoint> (e.g. Implement POST /api/v1/users)
+Create endpoint <endpoint> (e.g. Create endpoint POST /api/v1/users)
+<endpoint> > also <additional functionality> (e.g. POST /api/v1/users > also accept date of birth)
+
+
+
+
+
+Proposal
+--------
+
+
+**example request**
+
+
+```shell
+PUT '/v2/service_instances/binding-1'
+```
+
+
+**example response**
+
+
+```json
+// Some comments here
+{
+    "foo": "bar"
+}
+```
+
+# api-subtask.md
+
+As a , I want , so that I can <achieve some goal/benefit/value>.
+
+
+
+
+Proposal
+
+example request
+
+PUT '/v2/service_instances/binding-1'
+
+example response
+
+// Some comments here{
+    "foo": "bar"}
+
+
+
+
+Test Cases
+
+Given that , When , Then ensure .
+
+
+
+
+notes
+
+General API: https://example.com
+
+# Bugs.md
+
+“object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior.
+<person/type of user> can’t <perform action/get result they should be able to> (e.g. New User can’t view home screen) When <performing some action/event occurs>, the doesn’t work When <persona/type of user> , the doesn’t work doesn’t work should but doesn’t <is not/does not> <persona/user type> but should . (e.g. “Broken button. New User can’t click the Next button on Step 2 of the Wizard”).
+
+
+h2. Expected Behavior
+h2. Current Behavior
+h2. Possible Solution
+h2. Steps to Reproduce
+
+h2. Context (Environment)
+h2. Detailed Description
+h2. Possible Implementation
+
+# bug-template.md
+
+<person/type of user> can’t <perform action/get result they should be able to> (e.g. New User can’t view home screen) When <performing some action/event occurs>, the doesn’t work When <persona/type of user> , the doesn’t work doesn’t work should but doesn’t <is not/does not> <persona/user type> but should . (e.g. “Broken button. New User can’t click the Next button on Step 2 of the Wizard”).
+
+
+
+
+h2. Expected Behavior
+
+h2. Current Behavior
+
+h2. Possible Solution
+
+h2. Steps to Reproduce
+
+h2. Context (Environment)
+
+h2. Detailed Description
+
+h2. Possible Implementation
+
+# Requirement Clarity
+
+High Priority -> Fine-Grained Requirements (Tasks)
+
+Medium Priority -> Medium-Grained Requirements (User Stories)
+
+Low Priority -> Coarse-Grained Requirements (Epic)
+
+Breakdown (JIT Definition / Deep Dive)
+
+Identify Initial Scope
+
+Classify Requirement Clarity (Task/Story/Epic)
+
+Confirm Definition of Done (all activities to bring to shippable state)
+
+Frame a Model to Size the stories
+
+Spike Sample
+
+Task Breakdown / Story Splitting
+
+Team Conscience
+
+Expert Opinion
+
+Compute Total Story Points and Share (Add buffers based on clarity)
+User Story
+
+Dependencies / Environment Setup - 0pt
+
+User Interface Design - 1pt
+
+Database Design - 2pt
+
+Coding (business logic) - 2pt
+
+Code Review - 0.5pt
+
+Services Integration - 0pt
+
+Automated/Unit Testing - 1pt
+
+Packaging/Deployment - 0pt
+
+Manual System Testing - 1pt
+
+TOTAL EFFORT = 10pts
+
+# example-questions.md
+
+## How I see this card:
+
+
+- Front-End, Back-End, ...
+
+
+## Interpretations of the Acceptance Criteria:
+
+
+> Verify that a user can be happy after viewing their profile
+
+
+I think this means the user will have a smile on their face
+
+
+## Interpretations of the description:
+
+
+> Need to know which API to hit
+
+
+I think we will hit this API: http://example.com/profile
+
+# Features.md
+
+Features are defined using a Features and Benefits (FAB) Matrix:
+
+Feature – A short phrase giving a name and context
+
+Benefit hypothesis – The proposed measurable benefit to the end user or business
+
+Acceptance criteria are used to determine whether the implementation is correct and delivers the business benefits.
+
+Capabilities must be decomposed into features to be implemented. They, in turn, are split into stories consumable by teams within an iteration.
+
+# improvement-template.md
+
+> also (e.g. POST /api/v1/users > also accept date of birth) > also <additional functionality/ Make run faster Improve the performance of <feature/screen/endpoint> Update <with/to> Rename <feature/text> to
+
+# Improvements.md
+
+<component> > also <additional functionality>
+Make <feature> run faster
+Improve the performance of <feature/screen/endpoint>
+Update <feature> <with/to> <update>
+Rename <feature/text> to <new name>
+
+# AcceptanceCriteria.md
+
+Acceptance Criteria - Product Backlog Item
+
+It’s done when the outgoing sound alert is played when a message is sent.
+
+It’s done when the incoming sound alert is played when a message is received.
+
+Definition of Done (DoD) - Release Increment (DEVELOPMENT TEAM RESPONSIBLE FOR HIGH QUALITY PRODUCT)
+
+passes all tests
+
+passes all linting rules
+
+code has been reviewed by at least one other person or pair programmed
+
+the feature has been reviewed by one other person in the staging environment
+
+end-user documentation written and reviewed (if valuable)
+
+future planned stories demonstrated to Product Owner (optional)
+
+# KeyWords.md
+
+https://www.ietf.org/rfc/rfc2119.txt
+
+  The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+  NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+  "OPTIONAL" in this document are to be interpreted as described in
+  RFC 2119.
+
+
+As a , I want , so that
+
+Core Outcomes
+
+Must
+
+Verify that a URI string passed as a query parameter can be encoded into a QR code
+
+Verify that QR codes generated by the microservice are of image/jpeg type by default
+
+Verify that QR codes generated by this are 92px by 92px by default.
+
+Should
+
+Verify that a non-URI string passed as a query parameter can be encoded into a QR code
+
+Verify that QR codes generate by the microservice may be switched to image/png via query parameter
+
+Verify that dimensions of the QR code can be changed via query parameters.
+
+May
+
+Support other image formats via query parameters
+
+Support "candy" features like gradient background masks, background images, themes….go crazy (just don’t break the defaults)
+
+# personas.md
+
+user roles
+
+a collection of users that are assigned permissions by an administrator to perform similar actions or functions
+
+Primary Owner, Owner, Admin, Editor, Contributor, Viewer
+
+Role-based access control
+
+customer personas
+
+single archetypal users. Generic way to understand a person, and how you can write a User Story card “in their language”.
+
+system actors
+
+These definitions are stated as simply as possible, in order to identify and abstract away technical details of the interaction and give context to our systems Use-Cases for these actors.
+
+A primary actor initiates an interaction with the system. What tasks must they perform? behaviour-centred
+Cameron (Compliance Manager) Parker (Product Manager) Delaney (Development Team Lead) Presley (Product Designer) Sasha (Software Developer) Devon (DevOps Engineer) Sidney (Systems Administrator) Sam (Security Analyst) Rachel (Release Manager) Alex (Security Operations Engineer) Simone (Software Engineer in Test) Allison (Application Ops) Priyanka (Platform Engineer) Eddie (Content Editor) Dana (Data Analyst)
+
+
+
+
+gitlab personas
+
+By defining their concerns and where they go for information, we can best spend our marketing dollars and sales efforts by focusing on this ideal target.
+
+wiki
+
+An Actor models a type of role played by an entity that interacts with the subject (e.g., by exchanging signals and data), but which is external to the subject.
+
+
+
+
+### Proposed: Sidney (Systems Administrator)
+### Type: Engineer
+### Name: Sidney Stevenson
+### Age: 30
+### Location: United States
+### Technical Comfort: Advanced
+### Platforms: Desktop & Laptop
+### Job Title: System Engineer
+### Email: sstevenson@example.com
+
+
+#### Job Summary
+... I'm in charge of ... advanced user who is responsible for ....
+
+
+#### Jobs to be done
+... I need to be able to ...
+
+
+#### Motivations
+... What concerns does this user have? Why are they using our technology? ...
+
+
+#### Frustrations
+... What roadblocks or frustrations does this user have with our technology? ....
+
+
+#### Ideal Experience
+... The user’s story including what changes to our technology would help them have a great experience ...
+
+
+# priority.md
+
+MoSCoW
+
+Must Have (High Priority)
+
+Should Have
+
+Could Have
+
+Would Like (H-M-L)
+
+Every iteration should have a mix of the above types of items.
+
+stack rank
+
+rating
+
+priority
+
+Must Have
+
+High Priority
+
+Would Like
+
+H-M-L
+
+Must Have
+
+Medium Priority
+
+Must Have
+
+Low Priority
+
+Should Have
+
+H-M-L
+
+Could Have
+
+H-M-L
+
+
+
+
+Severity
+
+Description
+
+Work Arounds
+
+🚫 Blocker
+
+Customer/Business impacts
+
+Must be closed before release
+
+No workaround exists
+
+🔺 Critical
+
+Functionality not working
+
+Significant hindrance
+
+Complicated workaround exists
+
+🔼 Major
+
+Necessary improvement
+
+Slight hinderance
+
+Easy workaround exists
+
+🔽 Minor
+
+Nice-to-Have
+
+Implemented for convenience
+
+Workaround is not required for one or more supported use cases
+
+⏬ Trivial
+
+No impacts
+
+Not a supported use case
+
+No workaround required for supported use cases
+
+“we show courage in not building stuff that nobody wants.”
+
+Customer Will use
+
+Customer will Never or Rarely use
+
+Zero value stories (distant relationship to any definition of customer value)
+
+
+
+
+Priorities:
+
+High: “Give us these stories to provide a minimal working system.”
+
+Medium: “We need these stories to complete this system.”
+
+Low: “Bells and whistles? Which stories can come later?”
+
+Desireability:
+
+to a broad base of customers or users
+
+to a small number of important customers or users
+
+cohesiveness of the story in relation to other stories
+
+
+
+
+Business Impacts (Severity)
+
+Extensive / Widespread / P1 / Catastrophic (20 minute Intervals)
+
+Significant / Large / P2 / Critical (20 minute Intervals)
+
+Moderate / Limited / P3 / Moderate (<50%) (50 minute Intervals)
+
+Minor / Localized / P4 / Low (<20%) (every 24 hours)
+
+
+
+# Proposal.md
+
+<!-- https://github.com/pilosa/general/blob/master/design/template.md -->
+
+
+[This is a template for Pilosa's change proposal process, documented [here](../proposal.md).]
+
+
+# Proposal: [Title]
+
+
+Author(s): [Author Name, Co-Author Name]
+
+
+Last updated: [Date]
+
+
+Discussion at [issue link].
+
+
+## Abstract
+
+
+[A short summary of the proposal.]
+
+
+## Background
+
+
+[An introduction of the necessary background and the problem being solved by the proposed change.]
+
+
+## Proposal
+
+
+[A precise statement of the proposed change.]
+
+
+## Rationale
+
+
+[A discussion of alternate approaches and the trade offs, advantages, and disadvantages of the specified approach.]
+
+
+## Compatibility
+
+
+[A discussion of the change with regard to API compatibility]
+
+
+## Implementation
+
+
+[A description of the steps in the implementation, who will do them, and when.
+This should include a discussion of how the work fits into the release cycle.
+
+
+## Open issues (if applicable)
+
+
+[A discussion of issues relating to this proposal for which the author does not
+know the solution. This section may be omitted if there are none.]
+
+# size-estimates.md
+
+story points vs ideal days (no disruptions)
+
+https://www.pointingpoker.com/
+
+Base/Reference Story: One that all in the team can relate to. Sizing should be compared to that baseline (from current, or previous sprint)
+
+Relative Scale
+
+Type
+
+0.5 ideal day
+
+Task
+
+1 ideal day
+
+Task
+
+2 ideal days
+
+Task
+
+3 pts
+
+Story
+
+5 pts
+
+Story
+
+8 pts
+
+Story
+
+13 pts
+
+Story
+
+20 / Small (weeks)
+
+Feature
+
+40 / Medium (months)
+
+Epic
+
+100 / Large (quarters)
+
+Theme
+
+Relative Effort/Complexity - Stories
+
+Absolute Ideal Time - Tasks
+
+Complexity Buckets
+
+Light -> +1
+
+Medium -> +2
+
+High -> +3
+
+Complex -> +5
+
+
+
+
+Try reorienting estimation away from "How long will this take?", and towards "How much do we know about this?"
+
+The more you can know (or access), the better you can anticipate & predict
+
+Just about everyone in the world has done this
+
+Lots of people have done this, including someone on our team
+
+Someone in our company has done this, or we have access to expertise
+
+Someone in the world did this, but not in our organization (and probably at a competitor)
+
+Nobody in the world has ever done this before
+
+# SubTestExecution.md
+
+[Internal/Optional] Test Case: Verify [Expected Behavior]
+
+Type = Sub Test Execution
+
+Links:
+
+Tests: [TICKET NUMBER]
+
+Tests: ...
+
+Scenario
+
+    Test Case
+    --------
+
+
+**Given that** _<initial state before you begin>_,
+    **And**  _<other preconditions to the test>_,
+    **When** _<the specified behavior or action happens>_,
+    **Then ensure** _<the changes expected due to behavior>_.
+
+
+Examples
+
+Setup: The cashier has a new customer Operation: The cashier scans three cans of beans @ $.99, two pounds of spinach @ $.59/lb, and a toothbrush @$2.00 Verify: The receipt has all of the scanned items and their correctly listed prices
+
+
+
+# TestCases.md
+
+Test Cases
+--------
+
+
+**Given that** _<initial case>_,
+**When** _<case changes or action happens>_,
+**Then ensure** _<the way it should be>_.
+
+
+
+
+
+Acceptance Test for a Story
+
+Setup: The cashier has a new customer
+
+Operation: The cashier scans three cans of beans @ $.99, two pounds of spinach @ $.59/lb, and a toothbrush @$2.00
+
+Verify: The receipt has all of the scanned items and their correctly listed prices
+
+# UserStory.md
+
+A user story is the smallest amount of information (a step) necessary to allow the customer to define (and steer) a path through the system (Written by our customers (communication w/ developers))
+
+Start with a goal of the system.
+
+Think about the steps that the user takes as he/she does the activity
+
+Write no more than one step on each card
+
+
+
+
+{quote}
+As <a> <persona/type of user>, I want <something> so that <some reason> (e.g. As Sam Spendsalot, I want to one-click purchase so that I can get my goods as quickly as possible)
+As a <persona/type of user>, I want <something> (e.g. As a User, I want to create a task)
+<persona/type of user> <performs action on> <thing> (e.g. User visits home page OR User creates a task)
+{quote}
+
+
+h3. Description
+
+
+*As a* _<type of user>_,
+*I want* _<to perform some task>_,
+*so that I can* _<achieve some goal/benefit/value>_.
+
+
+h3. Core Outcomes
+
+
+* It MUST use tech
+* It SHOULD allow feelings
+* It MUST NOT be accessible for people from Jersey
+* It SHOULD NOT allow for kittens
+
+
+h3. Test Cases
+
+
+*Given that* _<initial case>_,
+*When* _<case changes or action happens>_,
+*Then* ensure _<the way it should be>_.
+
+
+h3. Notes
+
+
+Refer to [RFC 2119|https://www.ietf.org/rfc/rfc2119.txt] for the definition of requirement key words.
+
+# workflows.md
+
+..... LIMIT WORK IN PROGRESS AGE .....
+
+Statuses
+
+In Backlog [Open] (Requires Triage... What is it?)
+In Planning [Needs Grooming] (Is it actionable? Waiting for...? Eliminate/Incubate)
+In Elaboration (What is the next action?)
+Ready for Development [Groomed]
+In Development [In progress]
+Ready for QA [Technical Review]
+In QA [QA Test]
+Ready for Release
+Closed
+
+
+Card Colors
+
+green   #009755     comment ~ "#ThisIsGroomed"
+blue    #176ced     comment ~ "#ReadyForReview"
+yellow  #ffb300     comment ~ "#WaitingFor"
+red     #d8432e     commentedBy is empty or (comment !~ "#ThisIsGroomed" OR comment !~ "#ReadyForReview" OR comment !~ "#WaitingFor")
+
+
+Grooming
+
+⭐ * Ready: team agrees with assignee that ticket is clearly defined
+
+🔼 ** Follows: can be done, but needs to happen after something else
+
+❓ ? Waiting: questions need answering before work can start
+
+♻ ?* Review: assignee has updated this ticket
+
+💥 ! Blocked: something outside our control has/will stop progress
+
+Definition of Done
+
+Designed/Prototype
+
+Coded
+
+Integrated
+
+Documented
+
+All Tests Pass
+

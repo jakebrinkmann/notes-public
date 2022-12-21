@@ -1,0 +1,12 @@
+# QA
+
+> Products that fail the QA phase fail 90% of the time
+
+- Automation Tests
+- Headless Testing
+- Functional Testing
+- Non-Functional Testing
+
+## References
+
+- https://roadmap.sh/qa

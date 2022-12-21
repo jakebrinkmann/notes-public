@@ -1,0 +1,28 @@
+Projects — Areas — Resources — Archives
+=======================================
+
+# Projects
+> A series of tasks linked to a desired outcome, with a deadline.
+
+    ## r23.3: 1/4/23 - 3/14/23
+
+# Areas of Responsibility
+> Ongoing activity with expected quality standards.
+
+    - [Sr Software Eng](areas/sweng)
+    - [Contractors](contractors)
+    - [External](areas/external)
+    - [Conferences](areas/conferences)
+
+# Resource Topics
+> Generally useful or otherwise interesting things.
+
+    - [SDLC](resources/sdlc)
+    - [Frontend](resources/frontend)
+    - [Backend](resources/backend)
+    - [DevOps](resources/devops)
+    - [QA](resources/qa)
+    - [Architecture](resources/architecture)
+
+# [Archive](archive/index)
+> Inactive items from the other categories
