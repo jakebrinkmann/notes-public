@@ -1,0 +1,18 @@
+doc/adr/0001-record-architecture-decisions.md
+
+https://adr.github.io/
+
+In short, the Y-statement is as follows:
+
+> In the context of <use case/user story u>, 
+> facing <concern c> we decided for <option o> to achieve <quality q>,
+> accepting <downside d>.
+
+https://www.ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html
+
+ 1. Are we confident enough that this design will work (Evidence)?
+ 2. Have we decided between at least two options, and compared them (semi-)systematically (Criteria)?
+ 3. Have we discussed among each other and with peers just enough and come to a common view (Agreement)?
+ 4. Have we captured the decision outcome and shared the decision record (Documentation)?
+ 5. Do we know when to realize, review and possibly revise this decision (Realization/review)?
+
