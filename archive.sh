@@ -1,4 +1,9 @@
 #/usr/bin/env bash
-mkdir -p archive/$(date +%y-%m-%d)
-mv areas journal projects resources archive/$(date +%y-%m-%d)
-mkdir -p areas journal projects resources
+_arch() {
+  mkdir -p archive/$(date +%y-%m-%d)
+  mv $1 archive/$(date +%y-%m-%d)
+  mkdir -p $1
+}
+
+_arch areas 
+_arch resources
